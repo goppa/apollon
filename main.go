@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 	"os"
-	"./api"
-	srv "./http"
+	"github.com/goppa/apollon/api"
+	srv "github.com/goppa/apollon/http"
 )
 
 type CliOption struct {
